@@ -1,0 +1,68 @@
+/* Basic CSS Reset */
+
+/* Remove default margin and padding */
+html,
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+em,
+img,
+strong,
+sub,
+sup,
+b,
+i,
+label,
+legend,
+fieldset,
+form,
+button,
+input,
+select,
+textarea {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* Remove list styles */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Make images and other embedded objects responsive */
+img,
+embed,
+object,
+iframe {
+    max-width: 100%;
+}
+
+/* Reset form elements */
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+}
+
+/* Additional styles can be added as needed for specific projects */
